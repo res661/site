@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter-Strike 2</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <img src="https://i.imgur.com/mFdr4aS.png" alt="CS2 Logo" class="logo-img">
+          <h2 class="logo-text">Counter-Strike 2</h2>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <button class="nav-link" data-section="about">Про гру</button>
+          <button class="nav-link" data-section="weapons">Зброя та механіки</button>
+          <button class="nav-link" data-section="esports">Кіберспорт і трейд</button>
+        </nav>
+
+        <!-- Mobile menu button -->
+        <button class="mobile-menu-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <button class="nav-link" data-section="about">Про гру</button>
+      <button class="nav-link" data-section="weapons">Зброя та механіки</button>
+      <button class="nav-link" data-section="esports">Кіберспорт і трейд</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Animated background -->
+    <div class="background">
+      <div class="bg-overlay"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content animate-fade-in-up">
+          <img src="https://i.imgur.com/mFdr4aS.png" alt="Counter-Strike 2 Logo" class="hero-logo">
+          <h1 class="hero-title">COUNTER-STRIKE 2</h1>
+          <p class="hero-subtitle">Зануртеся в нову еру тактичного шутера, що визначив жанр</p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary" data-section="about">Дізнатися більше</button>
+            <a href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank" class="btn btn-outline">Грати безкоштовно</a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <button class="scroll-btn" data-section="about">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-content">
+          <h2 class="section-title"><span class="gradient-text">Про гру</span></h2>
+          <div class="about-grid">
+            <div class="about-image-container">
+              <div class="image-wrapper">
+                <div class="video-thumbnail">
+                  <img src="https://i.imgur.com/l1SKAHN.png" alt="CS2 Gameplay" class="about-image">
+                  <div class="play-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-text">
+              <div class="info-card">
+                <h3 class="card-title">Революційний геймплей</h3>
+                <p class="card-text">
+                  Counter-Strike 2 представляє собою повне оновлення легендарного тактичного шутера. Гра побудована на рушії Source 2, що забезпечує покращену графіку, фізику та звук.
+                </p>
+              </div>
+              <div class="info-card">
+                <h3 class="card-title">Ключові особливості</h3>
+                <ul class="feature-list">
+                  <li><span class="bullet">•</span> Оновлені карти з динамічним освітленням</li>
+                  <li><span class="bullet">•</span> Покращена система диму та гранат</li>
+                  <li><span class="bullet">•</span> Перероблена система тікрейту</li>
+                  <li><span class="bullet">•</span> Нові візуальні ефекти та анімації</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Weapons Section -->
+    <section id="weapons" class="section">
+      <div class="container">
+        <div class="section-content">
+          <h2 class="section-title"><span class="gradient-text">Зброя та механіки</span></h2>
+          <div class="weapons-grid">
+            <div class="weapon-card">
+              <div class="weapon-image-container">
+                <img src="images/shooting.jpg" alt="Стрільба та віддача" class="weapon-image">
+                <div class="weapon-overlay">
+                  <div class="weapon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg>
+                  </div>
+                </div>
+              </div>
+              <div class="weapon-info">
+                <h3 class="card-title">Стрільба та віддача</h3>
+                <p class="card-text">
+                  Перероблена система стрільби з реалістичною віддачею та розкидом. Кожна зброя має унікальний патерн віддачі, який потрібно освоїти.
+                </p>
+              </div>
+            </div>
+            <div class="weapon-card">
+              <div class="weapon-image-container">
+                <img src="images/grenades.jpg" alt="Гранати та утиліти" class="weapon-image">
+                <div class="weapon-overlay">
+                  <div class="weapon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m15 9-6 6"></path><path d="m9 9 6 6"></path></svg>
+                  </div>
+                </div>
+              </div>
+              <div class="weapon-info">
+                <h3 class="card-title">Гранати та утиліти</h3>
+                <p class="card-text">
+                  Димові гранати з об'ємним рендерингом, покращені молотови та нові ефекти вибухів. Тактичне використання гранат стало ще важливішим.
+                </p>
+              </div>
+            </div>
+            <div class="weapon-card">
+              <div class="weapon-image-container">
+                <img src="https://i.ytimg.com/vi/HBkO_IaJ38s/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDes7M_hthiGRR-c9fEaKd54WtLYQ" alt="Тікрейт і мережевий код" class="weapon-image">
+                <div class="weapon-overlay">
+                  <div class="weapon-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                  </div>
+                </div>
+              </div>
+              <div class="weapon-info">
+                <h3 class="card-title">Тікрейт і мережевий код</h3>
+                <p class="card-text">
+                  Революційна система тікрейту, яка адаптується до ситуації. Покращений мережевий код для більш точної реєстрації влучень.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="arsenal-container">
+            <h3 class="arsenal-title">Збройовий арсенал</h3>
+            <div class="arsenal-grid">
+              <div class="arsenal-item">Гвинтівка</div>
+              <div class="arsenal-item">Пістолет-кулемет</div>
+              <div class="arsenal-item">Пістолет</div>
+              <div class="arsenal-item">Снайперська</div>
+              <div class="arsenal-item">Дробовик</div>
+              <div class="arsenal-item">Важка зброя</div>
+              <div class="arsenal-item">Ніж</div>
+              <div class="arsenal-item">Граната</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Esports Section -->
+    <section id="esports" class="section">
+      <div class="container">
+        <div class="section-content">
+          <h2 class="section-title"><span class="gradient-text">Кіберспорт і трейд</span></h2>
+          <div class="esports-grid">
+            <div class="esports-info">
+              <div class="info-card">
+                <h3 class="card-title">Кіберспортивна сцена</h3>
+                <p class="card-text">
+                  Counter-Strike 2 продовжує традиції однієї з найпопулярніших кіберспортивних дисциплін у світі. Найбільші турніри, професійні команди та мільйони глядачів.
+                </p>
+              </div>
+              <div class="info-card">
+                <h3 class="card-title">Турніри та змагання</h3>
+                <ul class="feature-list">
+                  <li><span class="bullet">•</span> Major Championships з призовими фондами в мільйони доларів</li>
+                  <li><span class="bullet">•</span> ESL Pro League та BLAST Premier Series</li>
+                  <li><span class="bullet">•</span> Регіональні та локальні турніри</li>
+                </ul>
+              </div>
+            </div>
+            <div class="esports-content">
+              <div class="info-card">
+                <h3 class="card-title">Торгівля скінами</h3>
+                <p class="card-text">
+                  Екосистема торгівлі скінами перенесена в CS2 з деякими покращеннями. Колекціонування, торгівля та інвестування у віртуальні предмети залишаються важливою частиною спільноти.
+                </p>
+              </div>
+              <div class="esports-image-container">
+                <img src="https://i.imgur.com/mZ3syP8.jpeg" alt="CS2 Esports" class="esports-image">
+              </div>
+            </div>
+          </div>
+          <div class="teams-container">
+            <h3 class="teams-title">Топ команди</h3>
+            <div class="teams-grid">
+              <div class="team-item">
+                <div class="team-avatar">
+                  <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/5/5f/NAVI_Logo.svg/1200px-NAVI_Logo.svg.png" alt="Team 1" class="team-logo">
+                </div>
+                <p class="team-name">NAVI</p>
+              </div>
+              <div class="team-item">
+                <div class="team-avatar">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBIlPmDMvTdvFvc75CLzTIqk4n3Lh17xGClw&s" alt="Team 2" class="team-logo">
+                </div>
+                <p class="team-name">FaZe</p>
+              </div>
+              <div class="team-item">
+                <div class="team-avatar">
+                  <img src="https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/86/Team_Vitalitylogo_square.png/revision/latest?cb=20230224142251" alt="Team 3" class="team-logo">
+                </div>
+                <p class="team-name">Vitality</p>
+              </div>
+              <div class="team-item">
+                <div class="team-avatar">
+                  <img src="https://static.wikia.nocookie.net/counter-strike-global-offensive/images/d/de/G2_Esports_-_logo.png/revision/latest?cb=20190828165221&path-prefix=pl" alt="Team 4" class="team-logo">
+                </div>
+                <p class="team-name">G2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <img src="https://i.imgur.com/mFdr4aS.png" alt="CS2 Logo" class="footer-logo">
+        <p class="copyright">© 2023 Counter-Strike 2. Усі права захищені.</p>
+        <div class="social-links">
+          <a href="https://x.com/CounterStrike" target="_blank" class="social-btn">Twitter</a>
+          <a href="https://www.youtube.com/@Valve/featured" target="_blank" class="social-btn">YouTube</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="back-to-top" class="back-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
